@@ -1331,7 +1331,6 @@ namespace Orts.Formats.Msts
                     foreach (var duplicate in query)
                         Trace.TraceWarning($"{duplicate.Value} occurrences of UiD {duplicate.Key} in consist with name {Name}. Any UiD value should appear only once in a consist");
                 }
-                Trace.TraceWarning($"Here checking duplicates of consist {Name}");
             }
         }
     }
